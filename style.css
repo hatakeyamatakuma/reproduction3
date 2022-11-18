@@ -1,1 +1,86 @@
 /* 命名規則BEM */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  padding: 0 6%;
+}
+
+.mainvisual {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.mainvisual img {
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  padding-top: 30px;
+  align-items: center;
+}
+
+.nav__content {
+  display: flex;
+  list-style: none;
+  font-size: 0.8rem;
+}
+ .nav__content li {
+  padding: 0 10px;
+ }
+
+ .mainContent {
+  padding: 50px 6% 0 6%;
+ }
+
+ .mainContent__img {
+  width: 50%;
+ }
+
+ .mainContent__text {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+ }
+
+ .mainContent__text h1 {
+  font-size: 1.5rem;
+ }
+
+ .mainContent__text p {
+  font-size: 0.9rem;
+ }
+
+ #concept {
+  display: flex;
+ }
+
+ #work {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 50px;
+ }
+
+ footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 6% 0 6%;
+ }
