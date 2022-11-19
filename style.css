@@ -5,6 +5,10 @@
   margin: 0;
 }
 
+body {
+  font-family: 'Crimson Text', serif;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -12,75 +16,91 @@ a {
 
 img {
   max-width: 100%;
-}
-
-.wrapper {
-  padding: 0 6%;
+  vertical-align: bottom;
 }
 
 .mainvisual {
-  display: flex;
-  justify-content: center;
-  padding-top: 50px;
+  margin: 4% auto 0 auto;
+  width: 90vw;
 }
 
 .mainvisual img {
-  width: 100%;
+  max-width: 100%;
+  vertical-align: bottom;
 }
 
-.nav {
+#header {
   display: flex;
-  width: 40%;
-  justify-content: space-between;
-  padding-top: 30px;
+  width: 90vw;
+  margin: 0 auto 30px auto;
+  padding: 32px 0;
   align-items: center;
 }
 
-.nav__content {
+.header__title {
+  width: 110px;
+  line-height: 1px;
+  margin-right: 50px;
+}
+
+.header__title a {
+  display: block;
+}
+
+#header ul {
   display: flex;
   list-style: none;
-  font-size: 0.8rem;
 }
- .nav__content li {
-  padding: 0 10px;
+
+#header li {
+  font-size: 0.875rem;
+  margin-right: 30px;
  }
 
- .mainContent {
-  padding: 50px 6% 0 6%;
- }
+#header a {
+  text-decoration: none;
+  color: #2d2d2d;
+}
 
- .mainContent__img {
-  width: 50%;
- }
+.container {
+  max-width: 1000px;
+  margin: 0 2%;
+  padding: 0 18px;
+}
 
- .mainContent__text {
-  width: 50%;
+.container__content {
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
- }
+  align-items: center;
+  margin-bottom: 60px;
+}
 
- .mainContent__text h1 {
+.container__content__img {
+  width: 50%;
+}
+
+.container__content__text {
+  width: 50%;
+  padding: 0 7%;
+  box-sizing: border-box;
+}
+
+.textTitle {
   font-size: 1.5rem;
- }
+  font-weight: normal;
+  margin-bottom: 4px;
+}
 
- .mainContent__text p {
-  font-size: 0.9rem;
- }
+.textTitleEn {
+  display: inline-block;
+  margin-bottom: 25px;
+}
 
- #concept {
-  display: flex;
- }
-
- #work {
-  display: flex;
-  flex-direction: row-reverse;
-  padding-top: 50px;
- }
-
- footer {
+#footer {
   display: flex;
   justify-content: space-between;
-  padding: 50px 6% 0 6%;
- }
+  padding: 20px 0;
+  font-size: 0.875rem;
+}
+.footer__img {
+  width: 110px;
+}
